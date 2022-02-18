@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.w {
+    width: 1500px;
+    margin: auto;
+    position: relative;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+iframe{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.ol {
+    margin-top: 30px;
+}
+
+.lom {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.kolom {
+    background-color: #fff;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+
+a.tbl-pink {
+    background: #fc5185;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+
+
+
+.card-header {
+    padding: 20px 0px 20px 40px;
+    border: 1px solid;
+    background-color: #00abe4;
+    border-color: #00abe4;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    background-color: #fff;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    margin: 20px 0px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (max-width: 991.98px) {
+    .w {
+        width: 95%;
+    }
+
+    .wrapper {
+        width: 95%;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    section iframe{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+}
